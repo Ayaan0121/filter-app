@@ -1,0 +1,39 @@
+h3{
+    font-size:25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: animation ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{
+        box-shadow: 5px 5px 48px blue;
+    }
+    to{
+        box-shadow: 5px 5px 48px red; 
+    }
+     
+    
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    color:black;
+    font-weight:bold ;
+    background-color:lightgrey;
+    line-height: 3;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 8px 8px 8px black;
+
+
+}
